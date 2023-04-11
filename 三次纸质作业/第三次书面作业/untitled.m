@@ -1,0 +1,15 @@
+t=1:0.1:100;
+x1=cos(17/40*pi*t);
+x2=cos(37/40*pi*t);
+x=x1+x2;
+% plot(t,x);
+h1=cos(17/40)*exp(1*i-2*17/40);
+h2=cos(37/40)*exp(1*i-2*37/40);
+r1=conv(h1,x1);
+r2=conv(h2,x2);
+r3=r1+r2;
+r=ifft(r3);
+plot(t,r);
+% plot(t,r1);
+% figure(2);
+% plot(t,r2);

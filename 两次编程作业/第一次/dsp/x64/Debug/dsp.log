@@ -1,0 +1,11 @@
+﻿  源.cpp
+D:\MyEOfNew\5th term\5-2 数字信号处理\dsp\源.cpp(134,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\MyEOfNew\5th term\5-2 数字信号处理\dsp\源.cpp(217,36): warning C4244: “return”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+D:\MyEOfNew\5th term\5-2 数字信号处理\dsp\源.cpp(257,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MyEOfNew\5th term\5-2 数字信号处理\dsp\源.cpp(266,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\MyEOfNew\5th term\5-2 数字信号处理\dsp\源.cpp(363,12): warning C4101: “in2”: 未引用的局部变量
+  dsp.vcxproj -> D:\MyEOfNew\5th term\5-2 数字信号处理\dsp\x64\Debug\dsp.exe
